@@ -93,7 +93,7 @@ Once you have loaded the data, navigate back to the top ImageNomeR directory, an
 python3 src/flask_backend/flask_backend.py 
 ```
 
-Navigate to http://localhost:8000/ (note, no "s"). If the server is running but there are no analyses, you will see a screen like the following:
+Navigate to http://localhost:80/ (note, no "s"). If the server is running but there are no analyses, you will see a screen like the following:
 
 <img src='https://github.com/u-brite/ImageNomeR/blob/main/results/EmptyFrontPage.png?raw=1' width='400px'><br/>
 
