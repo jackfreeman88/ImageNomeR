@@ -81,8 +81,8 @@ You can see an example of the Power regions of interest (ROIs) being used to ext
 To load the data needed to run experiments, you must run the _getdata.py_ script located in the data/ directory.
 
 ```
-cd data
-python getdata.py
+
+python3 /data/getdata.py
 ```
 
 ## Usage
@@ -90,7 +90,7 @@ python getdata.py
 Once you have loaded the data, navigate back to the top ImageNomeR directory, and start the server:
 
 ```
-ython src/flask_backend/flask_backend.py 8000
+python3 src/flask_backend/flask_backend.py 
 ```
 
 Navigate to http://localhost:8000/ (note, no "s"). If the server is running but there are no analyses, you will see a screen like the following:
