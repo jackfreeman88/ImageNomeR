@@ -81,8 +81,8 @@ You can see an example of the Power regions of interest (ROIs) being used to ext
 To load the data needed to run experiments, you must run the _getdata.py_ script located in the data/ directory.
 
 ```
-
-python3 /data/getdata.py
+cd data
+python3 getdata.py
 ```
 
 ## Usage
